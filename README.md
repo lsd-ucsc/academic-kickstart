@@ -19,6 +19,8 @@ The steps to make changes to the template and build the website are as follows:
 - If you want to see the changes you make to the template source code in real time, run `hugo server -D` and go to (by default) `localhost:1313`.
 - After you have made the changes you want to make, run `hugo` to generate the website. The website is generated in the `public/` directory. 
 - You must now push both the contents of `public/` to the `lsd-ucsc.github.io` repository and the changes you made to the template to this repository. 
+- To push the source repo, add all the changes you have made with `git add` **with the exception of the** `public/` **repository**. To see what individual files have changed, use `git status`. Add those that are need, then commit and push: `git commit -m "Your commit message"`, `git push`.
+- To push the generated website, change directory to `public/` and `git add *`. Commit and push via `git commit -m "Your commit message"`, `git push`. 
 
 ## Making Changes 
 
@@ -27,3 +29,20 @@ Please see [this documentation](https://wowchemy.com/docs/) if you want a deep d
 Generally, any basic additions can be made by just editing markdown files such as those in the `content/` directory. 
 
 Advanced customization options are available (e.g. JavaScript, CSS/Sass, overriding templates) and details on them can be found in the documentation listed above. 
+
+### Basic Customization
+
+The `content/` directory is where all markdown changes should be made. Currently, the `content/home/` and `content/seminar` directories are where the bulk of the additions have been made. The contents of each directory is listed below alongside a short description and any technical notes regarding its customization.
+
+#### `content/home/`
+
+- `about.md`: The high-level description of the lab that is displayed at the top of the website in the **About** section. 
+- `events.md`: The **Events** section of the website that links to the Seminar page.
+- `faculty.md`: The **Faculty** section which contains pictures of each faculty member of LSD Labs and a link to their personal websites, or a page on the lab's website with more details. 
+    - Faculty should have a picture displayed above a link to their personal website. Hugo requires that the image linked follows the format `/img/myfacultyimage.jpg`; however, the location of the image in the repository is `/static/img/myfacultyimage.jpg`.
+- `labs.md`: The **Labs** section that lists, and links to, the respective labs of each faculty member. 
+- `students.md`: The **Students** section that lists, and links to, the students of LSD Labs. 
+
+#### `seminar/`
+
+- `index.md`: The schedule for the Fall 2020 LSD Seminar. 
