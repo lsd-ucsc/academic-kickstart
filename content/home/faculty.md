@@ -51,8 +51,8 @@ subtitle = ""
 ![Lindsey Kuper](/img/lkuper.jpeg "Lindsey Kuper")
 **[Lindsey Kuper](https://users.soe.ucsc.edu/~lkuper/)**
 
+![Ike Nassi](/img/inassi.jpg "Ike Nassi")
+**[Ike Nassi](https://www.soe.ucsc.edu/people/inassi)**
+
 ![Tyler Sorensen](/img/tsorensen.jpeg "Tyler Sorensen")
 **[Tyler Sorensen](https://users.soe.ucsc.edu/~tsorensen/)**
-
-
-
