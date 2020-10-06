@@ -2,6 +2,9 @@
 
 For the original documentation on the Academic Template for Hugo, [see this repository](https://github.com/wowchemy/wowchemy-hugo-modules).
 
+## System Requirements
+You will need to have an updated version of [Golang](https://golang.org/) installed on your machine in order to run Hugo commands.
+
 ## Workflow
 
 The **lsd-ucsc.github.io-source** repository contains the editable source code for the **lsd-ucsc.github.io** website. If you want to make a change to the website, it should only be done in this repository instead of directly to the generated website's repository. 
