@@ -38,6 +38,7 @@ The `content/` directory is where all markdown changes should be made. Currently
 
 - `about.md`: The high-level description of the lab that is displayed at the top of the website in the **About** section. 
 - `events.md`: The **Events** section of the website that links to the Seminar page.
+    - Events should be linked to a separate page on the website that gives an overview of what it is and a schedule for it. This can be done by including a new folder in the `content/` directory that is the name of your event. For example, the LSD Fall Seminar 2020 is linked in `events.md` as `[LSD Seminar Fall 2020](seminar)`, where `seminar` is the name of the folder in `content/` that includes an `index.md` file. The link will go to a page that displays the contents of `index.md`. 
 - `faculty.md`: The **Faculty** section which contains pictures of each faculty member of LSD Labs and a link to their personal websites, or a page on the lab's website with more details. 
     - Faculty should have a picture displayed above a link to their personal website. Hugo requires that the image linked follows the format `/img/myfacultyimage.jpg`; however, the location of the image in the repository is `/static/img/myfacultyimage.jpg`.
 - `labs.md`: The **Labs** section that lists, and links to, the respective labs of each faculty member. 
